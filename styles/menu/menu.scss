@@ -46,6 +46,7 @@
   border-radius: 2px solid $menuText;
   font-size: 15px;
   line-height: 132%;
+  cursor: pointer;
   &:hover {
     background-color: $menuText;
     color: white;
