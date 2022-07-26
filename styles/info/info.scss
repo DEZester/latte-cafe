@@ -1,0 +1,83 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 473px;
+  background: #aa9e54;
+  color: white;
+  &__container {
+    display: flex;
+    width: 1328px;
+    height: 233px;
+  }
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  &__title {
+    font-family: $azeretMono;
+    font-style: bold;
+    font-size: 17px;
+    line-height: 109%;
+    margin-bottom: 15px;
+  }
+  &__adress {
+    font-size: 25px;
+    line-height: 120%;
+  }
+  &__city {
+    font-size: 25px;
+    line-height: 120%;
+  }
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  &__title {
+    font-family: $azeretMono;
+    font-style: bold;
+    font-size: 17px;
+    line-height: 109%;
+    margin-bottom: 15px;
+  }
+  &__weekDates {
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    line-height: 120%;
+  }
+  &__time {
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    line-height: 120%;
+  }
+}
+.mondays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  &__title {
+    font-family: $azeretMono;
+    font-style: bold;
+    font-size: 17px;
+    line-height: 109%;
+    margin-bottom: 15px;
+  }
+  &__info {
+    width: 352px;
+    height: 73px;
+    font-size: 26px;
+    line-height: 116%;
+    text-align: center;
+  }
+}
+.time-margin {
+  margin-bottom: 35px;
+}

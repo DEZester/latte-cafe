@@ -149,6 +149,94 @@
   color: white;
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 473px;
+  background: #aa9e54;
+  color: white;
+}
+.info__container {
+  display: flex;
+  width: 1328px;
+  height: 233px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.location__title {
+  font-family: "Azeret Mono", monospace;
+  font-style: bold;
+  font-size: 17px;
+  line-height: 109%;
+  margin-bottom: 15px;
+}
+.location__adress {
+  font-size: 25px;
+  line-height: 120%;
+}
+.location__city {
+  font-size: 25px;
+  line-height: 120%;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.hours__title {
+  font-family: "Azeret Mono", monospace;
+  font-style: bold;
+  font-size: 17px;
+  line-height: 109%;
+  margin-bottom: 15px;
+}
+.hours__weekDates {
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  line-height: 120%;
+}
+.hours__time {
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  line-height: 120%;
+}
+
+.mondays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.mondays__title {
+  font-family: "Azeret Mono", monospace;
+  font-style: bold;
+  font-size: 17px;
+  line-height: 109%;
+  margin-bottom: 15px;
+}
+.mondays__info {
+  width: 352px;
+  height: 73px;
+  font-size: 26px;
+  line-height: 116%;
+  text-align: center;
+}
+
+.time-margin {
+  margin-bottom: 35px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
