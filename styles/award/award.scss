@@ -1,0 +1,37 @@
+.award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 462px;
+  background-color: #4a2b33;
+  color: $lightPink;
+  &__textContainer {
+    display: flex;
+    width: 1400px;
+    height: 221px;
+    margin: 120px 20px;
+  }
+  &__textContainer-info {
+    flex: 1;
+    &__text {
+      display: inline-block;
+      width: 413px;
+      margin: 1px auto 30px 36px;
+      font-family: $azeretMono;
+      font-size: 47px;
+      line-height: 114%;
+      letter-spacing: 1px;
+    }
+  }
+  &__textContainer-lorem {
+    flex: 1;
+    &__text {
+      display: inline-block;
+      margin: 19px 89px 13px;
+      width: 595px;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+}
