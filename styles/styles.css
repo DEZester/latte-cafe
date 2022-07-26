@@ -237,6 +237,43 @@
   margin-bottom: 35px;
 }
 
+.booking {
+  width: 1440px;
+  height: 912px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking__imgContainer {
+  width: 1400px;
+  height: 672px;
+  margin: 120px 20px;
+  display: flex;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+}
+.food__img {
+  width: 644px;
+  height: 300px;
+  margin-left: 36px;
+}
+.food__img__1 {
+  margin-top: 32px;
+}
+.food__img__2 {
+  margin-top: 40px;
+}
+.food__img-hall {
+  width: 644px;
+  height: 640px;
+  margin-left: 40px;
+  margin-top: 32px;
+  margin-right: 36px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
