@@ -260,10 +260,10 @@
   height: 300px;
   margin-left: 36px;
 }
-.food__img__1 {
+.food__img:nth-child(1) {
   margin-top: 32px;
 }
-.food__img__2 {
+.food__img:nth-child(2) {
   margin-top: 40px;
 }
 .food__img-hall {
